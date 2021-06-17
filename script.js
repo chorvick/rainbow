@@ -6,7 +6,7 @@ https://nswamy14.gitbook.io/i2djs/
 https://github.com/I2Djs/I2Djs   
 
 ****/
-// import * as i2d from 'i2djs';
+// import * as i2d from 'i2djs';  not neces.
 
 var renderer_ = i2d.svgLayer('#MySVG', {});
 var parallelChain = i2d.chain.parallelChain().loop(10)
@@ -54,3 +54,5 @@ function animateEachCircle(d) {
 }
 
 parallelChain.start()
+
+////  
